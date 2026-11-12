@@ -1,0 +1,29 @@
+# ─── Données (volumineuses, publiques sur Kaggle → ne pas versionner) ───
+*.csv
+*.zip
+*.pcap
+ML-EdgeIIoT-dataset.csv
+DNN-EdgeIIoT-dataset.csv
+
+# ─── Secrets / clés API — NE JAMAIS POUSSER ───
+kaggle.json
+.kaggle/
+access_token
+*.env
+
+# ─── Jupyter ───
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ─── Python ───
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ─── Système / éditeurs ───
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
